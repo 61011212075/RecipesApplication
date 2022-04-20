@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sortByName"
+        android:icon= "@drawable/ic_baseline_sort"
+        app:showAsAction="withText"
+        android:title="Sort By Name"/>
+    <item android:id="@+id/sortByDifficulty"
+        android:icon= "@drawable/ic_baseline_sort"
+        app:showAsAction="withText"
+        android:title="Sort By Difficulty"/>
+</menu>
