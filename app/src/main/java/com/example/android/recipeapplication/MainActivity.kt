@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity(),RecipeClickListener {
 
                 } catch (e: Exception) { }
             }
-        }, 0, 50000)  // 5 Minutes
+        }, 0, 300000)  // 5 Minutes
     }
 
     private var simpleCallback = object : ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP.or(ItemTouchHelper.DOWN),0){
